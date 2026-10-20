@@ -1,0 +1,18 @@
+# Embedded build outputs
+build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local settings and credentials
+.env
+.env.*
+secrets.h
+credentials.h
