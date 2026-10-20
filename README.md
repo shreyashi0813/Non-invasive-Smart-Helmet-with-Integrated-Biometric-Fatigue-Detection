@@ -2,8 +2,6 @@
 
 An embedded smart-helmet prototype combining biometric-signal acquisition, alcohol sensing, helmet-wearing verification, crash/impact detection, wireless communication, GPS-based incident location, and a receiver-side ignition interlock demonstration.
 
-> **Project and patent-document note:** The uploaded document is a VIT IPR&TTCELL invention disclosure / patent draft. This repository describes the project based on that document; it does not claim that a patent has been filed, published, or granted. Confirm the public-disclosure and intellectual-property permissions before uploading the draft or its restricted figures.
-
 ## Project Overview
 
 The design is split into two embedded units:
@@ -85,33 +83,6 @@ The document uses inconsistent terms for the biometric input (EEG, ECG and EMG) 
 
 Exact thresholds, sampling rate, RF packet format, GPS-trigger logic, and signal-processing details should be documented from the actual firmware rather than inferred from the invention disclosure.
 
-## Prototype Evidence Described in the Document
-
-The uploaded draft includes:
-- A logical workflow diagram (Figure 1)
-- System architecture for transmitter and receiver (Figure 2)
-- Transmitter circuit / wiring illustration (Figure 3)
-- Transmitter prototype photograph (Figure 4)
-- Receiver prototype photograph (Figure 5)
-- Receiver and transmitter setup photographs (Figures 6–8)
-- Example serial-monitor scenarios for normal, unsafe, critical, and helmet-not-worn cases
-
-These are descriptions of the document's figures and reported tests, not an independent validation of accuracy or road-safety performance.
-
-## Repository Structure
-
-```text
-.
-├── README.md
-├── .gitignore
-├── docs/
-│   └── MEDIA-NOTES.md
-├── firmware/
-├── hardware/
-└── media/
-```
-
-Firmware, editable schematics, and approved images should be added only when the actual files are available and cleared for public release.
 
 ## Safety, Accuracy, and Scope
 
